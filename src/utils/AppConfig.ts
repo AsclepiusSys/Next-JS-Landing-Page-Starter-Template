@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'Asclepius Systems',
   title: 'Asclepius Starter',
-  description: 'Starter code for Asclepius landing page with Tailwind CSS',
+  description: 'Sign up to start building your medical business',
   locale: 'en',
 };
