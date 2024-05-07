@@ -3,8 +3,3 @@
 @tailwind components;
 
 @tailwind utilities;
-.VerticalFeatureRow {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
