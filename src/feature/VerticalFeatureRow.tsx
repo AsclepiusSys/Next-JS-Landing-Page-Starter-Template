@@ -1,5 +1,5 @@
-import className from 'classnames';
-import { useRouter } from 'next/router';
+import className from "classnames";
+import { useRouter } from "next/router";
 
 type IVerticalFeatureRowProps = {
   title: string;
@@ -7,25 +7,25 @@ type IVerticalFeatureRowProps = {
   image: string;
   imageAlt: string;
   reverse?: boolean;
-  align?: 'left' | 'center' | 'right'; // New alignment prop
+  align?: "left" | "center" | "right"; // New alignment prop
 };
 
 const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   const verticalFeatureClass = className(
-    'mt-20',
-    'flex',
-    'flex-wrap',
-    'items-center',
-    'justify-start', // This ensures content starts from the left
+    "mt-20",
+    "flex",
+    "flex-wrap",
+    "items-center",
+    "justify-start", // This ensures content starts from the left
     {
-      'flex-row-reverse': props.reverse,
+      "flex-row-reverse": props.reverse,
     },
   );
 
   const contentAlignmentClass = className({
-    'text-left': props.align === 'left' || !props.align, // Default to left if not specified
-    'text-center': props.align === 'center',
-    'text-right': props.align === 'right',
+    "text-left": props.align === "left" || !props.align, // Default to left if not specified
+    "text-center": props.align === "center",
+    "text-right": props.align === "right",
   });
 
   const router = useRouter();

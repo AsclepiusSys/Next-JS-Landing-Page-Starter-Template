@@ -1,21 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import { Meta } from '@/layout/Meta';
-import { Section } from '@/layout/Section';
+import { Meta } from "@/layout/Meta";
+import { Section } from "@/layout/Section";
 
 const About = () => {
   return (
     <div
       style={{
         backgroundImage: "url('/shutterstock_128624354.jpg')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center', // Adjusted for better focus
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
-        width: '100vw',
-        display: 'flex', // Centers the content vertically and horizontally
-        alignItems: 'center',
-        justifyContent: 'center',
+        backgroundSize: "cover",
+        backgroundPosition: "center", // Adjusted for better focus
+        backgroundRepeat: "no-repeat",
+        height: "100vh",
+        width: "100vw",
+        display: "flex", // Centers the content vertically and horizontally
+        alignItems: "center",
+        justifyContent: "center",
       }}
       className="about-page"
     >
@@ -25,12 +25,12 @@ const About = () => {
       />
       <div
         style={{
-          backgroundColor: 'rgba(255, 255, 255, 0.8)', // Semi-transparent white background
-          padding: '20px',
-          borderRadius: '10px',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow for depth
-          maxWidth: '80%', // Limits the width of the content box
-          textAlign: 'left',
+          backgroundColor: "rgba(255, 255, 255, 0.8)", // Semi-transparent white background
+          padding: "20px",
+          borderRadius: "10px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+          maxWidth: "80%", // Limits the width of the content box
+          textAlign: "left",
         }}
       >
         <Section
