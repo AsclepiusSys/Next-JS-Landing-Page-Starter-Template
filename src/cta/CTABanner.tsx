@@ -1,21 +1,21 @@
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
 type ICTABannerProps = {
-    title: string,
-    subtitle: string,
-    button: ReactNode,
-    style: {
-        padding: string,
-        boxShadow: string,
-        borderRadius: string,
-        textAlign: string,
-        background: string,
-        maxWidth: string,
-        flexDirection: string,
-        justifyContent: string,
-        alignItems: string,
-        display:string
-    }
+  title: string;
+  subtitle: string;
+  button: ReactNode;
+  style: {
+    padding: string;
+    boxShadow: string;
+    borderRadius: string;
+    textAlign: string;
+    background: string;
+    maxWidth: string;
+    flexDirection: string;
+    justifyContent: string;
+    alignItems: string;
+    display: string;
+  };
 };
 
 const CTABanner = (props: ICTABannerProps) => (

@@ -1,18 +1,25 @@
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
 type ISectionProps = {
-  title?: string,
-  description?: string,
-  yPadding?: string,
-  xPadding?: string,
-  children?: ReactNode,
-  style?: { alignItems?: string, background?: string, display?: string, justifyContent?: string, height?: string, textAlign?: string }
+  title?: string;
+  description?: string;
+  yPadding?: string;
+  xPadding?: string;
+  children?: ReactNode;
+  style?: {
+    alignItems?: string;
+    background?: string;
+    display?: string;
+    justifyContent?: string;
+    height?: string;
+    textAlign?: string;
+  };
 };
 
 const Section = (props: ISectionProps) => (
   <div
-    className={`mx-auto place-content-start max-w-screen-lg px-3 ${
-      props.yPadding ? props.yPadding : 'py-16'
+    className={`mx-auto max-w-screen-lg place-content-start px-3 ${
+      props.yPadding ? props.yPadding : "py-16"
     } text-left`}
   >
     {(props.title || props.description) && (
