@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "npm install --legacy-peer-deps && next build",
+    "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "build-prod": "run-s clean build",
@@ -19,7 +19,8 @@
     "next-seo": "^6.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "@react-buddy/ide-toolbox-next": "^2.4.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.0.4",
