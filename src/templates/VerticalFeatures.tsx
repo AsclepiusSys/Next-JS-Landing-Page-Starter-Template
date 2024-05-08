@@ -1,5 +1,5 @@
-import { VerticalFeatureRow } from "@/feature/VerticalFeatureRow";
-import { Section } from "@/layout/Section";
+import { VerticalFeatureRow } from '@/feature/VerticalFeatureRow';
+import { Section } from '@/layout/Section';
 
 const VerticalFeatures = () => (
   <Section
@@ -10,14 +10,14 @@ const VerticalFeatures = () => (
       align="left"
       title="User and Patient Data Management"
       description="Facilitates secure user registration, login, and role-based access, alongside comprehensive patient profile management including medical history and allergies."
-      image="/assets/images/user-management.png" // Suggested image: a graphical representation of user and patient data management.
+      image="/assets/images/user-management.png"
       imageAlt="User management and patient data"
     />
     <VerticalFeatureRow
       align="left"
       title="Comprehensive Prescription Portal"
       description="Streamlines prescription processes with features like auto-fetch patient details, a detailed medication database, and alerts for drug-drug interactions."
-      image="/assets/images/prescription-portal.png" // Suggested image: an interface showing a prescription being filled out.
+      image="/assets/images/prescription-portal.png"
       imageAlt="Prescription portal interface"
       reverse
     />
@@ -25,7 +25,7 @@ const VerticalFeatures = () => (
       align="left"
       title="Enhanced Drug Information and Security"
       description="Incorporates an exhaustive drug database with openFDA API integration and heightened security for controlled substance prescriptions."
-      image="/assets/images/drug-information.png" // Suggested image: a database icon or a secure lock symbolizing security in drug information.
+      image="/assets/images/drug-information.png"
       imageAlt="Drug information and security"
     />
   </Section>

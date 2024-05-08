@@ -1,9 +1,14 @@
-import "../styles/global.css";
+import '../styles/global.css';
 
-import type { AppProps } from "next/app";
+import { DevSupport } from '@react-buddy/ide-toolbox-next';
+import type { AppProps } from 'next/app';
+
+import { ComponentPreviews, useInitial } from '@/dev';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Component {...pageProps} />
+  <DevSupport ComponentPreviews={ComponentPreviews} useInitialHook={useInitial}>
+    <Component {...pageProps} />
+  </DevSupport>
 );
 
 export default MyApp;

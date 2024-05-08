@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 type ISectionProps = {
   title?: string;
@@ -18,12 +18,14 @@ type ISectionProps = {
 
 const Section = (props: ISectionProps) => (
   <div
-    className={`mx-auto max-w-screen-lg place-content-start px-3 ${
-      props.yPadding ? props.yPadding : "py-16"
-    } text-left`}
+    className={`mx-auto max-w-screen-sm px-3 ${
+      props.yPadding ? props.yPadding : 'py-16'
+    }`}
   >
     {(props.title || props.description) && (
-      <div className="mb-12 place-content-start">
+      <div className="mb-12 text-center">
+        {' '}
+        {/* Adjusted for center alignment */}
         {props.title && (
           <h2 className="text-4xl font-bold text-gray-900">{props.title}</h2>
         )}
