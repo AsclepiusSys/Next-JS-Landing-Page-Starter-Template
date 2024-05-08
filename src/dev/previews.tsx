@@ -1,4 +1,5 @@
 import { ComponentPreview, Previews } from '@react-buddy/ide-toolbox-next';
+import React from 'react';
 
 import { Section } from '@/layout/Section';
 import { Base } from '@/templates/Base';
