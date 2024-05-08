@@ -14,13 +14,13 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@react-buddy/ide-toolbox": "^2.4.0",
     "classnames": "^2.5.1",
     "next": "^14.0.4",
     "next-seo": "^6.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-jsx-plugin-postcss": "^4.0.1",
-    "@react-buddy/ide-toolbox-next": "^2.4.1"
+    "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.0.4",
