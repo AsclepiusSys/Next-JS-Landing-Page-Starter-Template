@@ -1,11 +1,11 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 type IFooterIconListProps = {
   children: ReactNode;
 };
 
 const FooterIconList = (props: IFooterIconListProps) => (
-  <div className="footer-icon-list flex flex-wrap">
+  <div className='footer-icon-list flex flex-wrap'>
     {props.children}
 
     <style jsx>

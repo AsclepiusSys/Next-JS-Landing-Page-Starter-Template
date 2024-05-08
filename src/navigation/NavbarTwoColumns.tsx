@@ -1,5 +1,5 @@
-import Link from "next/link";
-import type { ReactNode } from "react";
+import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 type INavbarProps = {
   logo: ReactNode;
@@ -7,13 +7,13 @@ type INavbarProps = {
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap  justify-between">
+  <div className='flex flex-wrap  justify-between'>
     <div>
-      <Link href="/">{props.logo}</Link>
+      <Link href='/'>{props.logo}</Link>
     </div>
 
     <nav>
-      <ul className="navbar flex items-center text-xl font-medium text-gray-800">
+      <ul className='navbar flex items-center text-xl font-medium text-gray-800'>
         {props.children}
       </ul>
     </nav>

@@ -18,22 +18,22 @@ const ComponentPreviews = () => {
 
   return (
     <Previews palette={<PaletteTree />}>
-      <ComponentPreview path="/Base">
+      <ComponentPreview path='/Base'>
         <Base />
       </ComponentPreview>
-      <ComponentPreview path="/VerticalFeatures">
+      <ComponentPreview path='/VerticalFeatures'>
         {/* Apply the style to the VerticalFeatures component */}
         <div style={leftAlignStyle}>
           <VerticalFeatures />
         </div>
       </ComponentPreview>
-      <ComponentPreview path="/Section">
+      <ComponentPreview path='/Section'>
         <Section />
       </ComponentPreview>
-      <ComponentPreview path="/ComponentPreviews">
+      <ComponentPreview path='/ComponentPreviews'>
         <ComponentPreviews />
       </ComponentPreview>
-      <ComponentPreview path="/VerticalFeatures">
+      <ComponentPreview path='/VerticalFeatures'>
         <VerticalFeatures />
       </ComponentPreview>
     </Previews>

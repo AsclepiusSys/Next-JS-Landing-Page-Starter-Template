@@ -21,12 +21,12 @@ const Banner = () => (
         width: '100%', // Ensures the div takes up the full width of the section if necessary
       }}
     >
-      <h1 className="text-3xl font-bold">
+      <h1 className='text-3xl font-bold'>
         Building the Future of Medical Business
       </h1>
-      <p className="mt-4 text-center text-2xl">
+      <p className='mt-4 text-center text-2xl'>
         Contact us at{' '}
-        <a href="mailto:management@AsclepiusSys.com">
+        <a href='mailto:management@AsclepiusSys.com'>
           management@AsclepiusSys.com
         </a>
       </p>
