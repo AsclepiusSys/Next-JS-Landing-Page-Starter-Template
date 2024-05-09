@@ -10,7 +10,7 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <a
-            href='https://dev.asclepiussys.com'
+            href='http://dev.asclepiussys.com'
             target='_blank'
             rel='noopener noreferrer'
           >
