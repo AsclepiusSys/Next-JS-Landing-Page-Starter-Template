@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { Background } from '@/background/Background';
 import { Section } from '@/layout/Section';
 import { NavbarTwoColumns } from '@/navigation/NavbarTwoColumns';
@@ -11,7 +9,13 @@ const Hero = () => (
     <Section yPadding='py-6'>
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href='/'>Sign in</Link>
+          <a
+            href='https://dev.asclepiussys.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Sign in
+          </a>
         </li>
       </NavbarTwoColumns>
     </Section>
